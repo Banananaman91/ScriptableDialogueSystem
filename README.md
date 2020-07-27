@@ -41,9 +41,10 @@ Message text is displayed in the text UI and is rendered at the sentence speed s
 Mood is to identify the mood of the text. This is used with npcimages, once the npc is identified it will display the corresponding image to that mood by checking the image name. (example later).
 
 Responses handles filling out possible responses. The size of this array determines how many button responses are created. These will in turn have text to display on those buttons. They have a Next and Trigger event field
-	Next will decide which array element in messages will run next, and can jump to any array element chosen.
 
-	Trigger Event runs the ResponseTrigger method existing in any inheritors of DialogueObject. These include Cage, Furniture, Mastermind and Page. This allows event behaviour to be triggered by dialogue choices, starting up mini games or initiating final locations, or any other behaviour added in if needed (animations etc)
+Next will decide which array element in messages will run next, and can jump to any array element chosen.
+
+Trigger Event runs the ResponseTrigger method existing in any inheritors of DialogueObject. These include Cage, Furniture, Mastermind and Page. This allows event behaviour to be triggered by dialogue choices, starting up mini games or initiating final locations, or any other behaviour added in if needed (animations etc)
 
 NextMessage, the same as Next in Responses, signifies which message is to be played next. Both NextMessage and Next should be set to -1 (or any value less than zero) in order to cancel running further dialogue, ending dialogue completely. If responses are added, recommended to set NextMessage to -1 to end dialogue if anything but a response is pressed, prevent dialogue continuing without a response chosen. Alternatively, add a default responses Next to also be NextMessage (make them the same value).
 
