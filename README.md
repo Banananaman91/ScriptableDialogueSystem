@@ -11,7 +11,7 @@ An example has been provided in DialogueExample (ScriptableDialogueSystem > Exam
 ### Render Dialogue
 RenderDialogue is a type used to handle rendering all dialogue instances. Multiple render dialogues can exist, with unique UI’s, to give the appearance of changes in dialogue interaction. These need to be attached to the items intended to run them. Items can have a base Page Render and Alternative Render options added. This allows the user to create their own ways of switching the rendered UI for the dialogue through ResponseTriggerEvents or other methods.
 
-![alt text](http://url/to/img.png)
+![Render Dialogue](https://github.com/Banananaman91/ScriptableDialogueSystem/blob/master/Images/RenderDialogue.PNG?raw=true)
 
 Page Name corresponds to the text field to display the name (if required) of whose dialogue is displaying.
 Page Text displays the dialogue itself.
@@ -29,7 +29,7 @@ These are scriptableobjects for dialogue information that can be created at will
 
 #### Dialogue
 
-![alt text](http://url/to/img.png)
+![DialogueObject](https://github.com/Banananaman91/ScriptableDialogueSystem/blob/master/Images/Dialogue.PNG?raw=true)
 
 Lets break down what is happening in this dialogue.
 The first piece in the Messages array is a dialogue for Death. This contains the name, the message text itself (to be displayed), mood, responses, and next message.
@@ -53,7 +53,7 @@ NpcImages is a singular scriptableobject. More can be created, but aren’t requ
 
 Npc Image array handles all separate images. This works by splitting the fields up into categories.
 
-![alt text](http://url/to/img.png)
+![NpcImages](https://github.com/Banananaman91/ScriptableDialogueSystem/blob/master/Images/NpcImages.PNG?raw=true)
 
 Element 0 (Death) has the Npc Name and NpcMoodImages. The name is how the dialogue matches which npc images to look for (if death, it will stop and look at the images located here).
 
@@ -64,7 +64,7 @@ For both fields, casing doesn’t matter. DeAth will match with DEATH and death.
 ## Attaching dialogue
 Objects that have fields for dialogue to be added can render dialogue.
 
-![alt text](http://url/to/img.png)
+![CageTrap example](https://github.com/Banananaman91/ScriptableDialogueSystem/blob/master/Images/CageTrap.PNG?raw=true)
 
 Dialogue corresponds to the dialogue scriptableobject created. Notice this is a drop down, as this SO is editable here in the inspector if required.
 Page Render refers to the default renderdialogue object.
@@ -78,7 +78,7 @@ Required items is specific to this item, and refers to what is required in order
 
 Trap Trigger is the override for Start Message when the trap is able to be triggered.
 
-![alt text](http://url/to/img.png)
+![FurnitureInteract Example](https://github.com/Banananaman91/ScriptableDialogueSystem/blob/master/Images/FurnitureInteract.PNG?raw=true)
 
 Notice the difference and similarities in fields. At the top of both, dialogue is separated with a header, this is the only area required to handle dialogue objects. FurnitureInteract also holds additional start message overrides at the bottom. This controls running the first message from a new location as the dialogue adapts.
 
