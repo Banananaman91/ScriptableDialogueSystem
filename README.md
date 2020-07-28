@@ -3,7 +3,18 @@ A dialogue system using scriptable objects for Unity. This system was originally
 
 An example scene can be found in ScriptableDialogueSystem > Example > Scene
 
-## Updated 1.1.0
+## Update 1.2.0
+
+NpcMoods has been replaced with NpcBio. RenderDialogue will now match the name in npcimages and display a customised UI from that bio.
+This means multiple RenderDialogue objects are no longer needed in the scene to have different versions of UI running.
+
+Current implementation allows the following:
+Custom sprite to replace background Image,
+Custom colour to replace background Image colour,
+Custom colour to replace text colours,
+Custom font to replace text fonts on display.
+
+## Update 1.1.0
 
 Added UnityEvents to DialogueObjects. Now response triggers will call the events assigned to DialogueObjects and those inherited from DialogueObjects.
 This allows users to more easily fill out customisable events in the inspector directly.
