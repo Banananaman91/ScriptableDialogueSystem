@@ -3,6 +3,11 @@ A dialogue system using scriptable objects for Unity. This system was originally
 
 An example scene can be found in ScriptableDialogueSystem > Example > Scene
 
+## Updated 1.1.0
+
+Added UnityEvents to DialogueObjects. Now response triggers will call the events assigned to DialogueObjects and those inherited from DialogueObjects.
+This allows users to more easily fill out customisable events in the inspector directly.
+
 ## How to add dialogue
 
 Firstly, you need to create a type that will be used to initialise dialogue, such as an interactable. This type will inherit from DialogueObject (ScriptableDialogueSystem > Editor > DialogueTypes). DialogueObject will provide the necessary fields, at which point you create the way you want them to run.
