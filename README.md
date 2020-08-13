@@ -3,6 +3,16 @@ A dialogue system using scriptable objects for Unity. This system was originally
 
 An example scene can be found in ScriptableDialogueSystem > Example > Scene
 
+##Update 1.2.1
+
+Added feature for an array of Unity Events to be called
+Added ability to set specific messages and responses to trigger events, users can pass in a value for the event they want to call
+Custom editor created for Dialogue and NpcBio scriptable objects
+Editor fix for fields lining up
+Editor fix, hiding unecessary parts unless options are picked
+Bug fix for editor having null fields
+Bug fix for render dialogue calling old behaviours
+
 ## Update 1.2.0
 
 NpcMoods has been replaced with NpcBio. RenderDialogue will now match the name in npcimages and display a customised UI from that bio.
