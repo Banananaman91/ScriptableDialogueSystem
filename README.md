@@ -3,6 +3,14 @@ A dialogue system using scriptable objects for Unity. This system was originally
 
 An example scene can be found in ScriptableDialogueSystem > Example > Scene
 
+# Features
+- [Custom Narrative Dialogue GUI](https://github.com/Banananaman91/ScriptableDialogueSource/blob/main/ScriptableDialogue/Assets/Editor/DialogueEditor.cs)
+- [Narrative Dialogue Creation with Scriptable Objects](https://github.com/Banananaman91/ScriptableDialogueSource/blob/main/ScriptableDialogue/Assets/ScriptableDialogueSystem/Editor/DialogueTypes/Dialogue.cs)
+- [Narrative Character Bio with Character Mood Icon & Custom UI](https://github.com/Banananaman91/ScriptableDialogueSource/blob/e756a747394b021482e1afb2525e701df26e9cfd/ScriptableDialogue/Assets/ScriptableDialogueSystem/Editor/DialogueTypes/RenderDialogue.cs#L103)
+- [Narrative Responses with Custom Message & Event triggers](https://github.com/Banananaman91/ScriptableDialogueSource/blob/e756a747394b021482e1afb2525e701df26e9cfd/ScriptableDialogue/Assets/ScriptableDialogueSystem/Editor/DialogueTypes/RenderDialogue.cs#L168)
+- [Unity Event Dialogue Triggers](https://github.com/Banananaman91/ScriptableDialogueSource/blob/main/ScriptableDialogue/Assets/ScriptableDialogueSystem/Editor/DialogueTypes/DialogueObject.cs)
+- [Custom Dialogue UI renderer](https://github.com/Banananaman91/ScriptableDialogueSource/blob/main/ScriptableDialogue/Assets/ScriptableDialogueSystem/Editor/DialogueTypes/RenderDialogue.cs#L103)
+
 ## Update 1.2.1
 
 Added feature for an array of Unity Events to be called
