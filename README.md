@@ -11,6 +11,10 @@ An example scene can be found in ScriptableDialogueSystem > Example > Scene
 - [Unity Event Dialogue Triggers](https://github.com/Banananaman91/ScriptableDialogueSource/blob/main/ScriptableDialogue/Assets/ScriptableDialogueSystem/Editor/DialogueTypes/DialogueObject.cs)
 - [Custom Dialogue UI renderer](https://github.com/Banananaman91/ScriptableDialogueSource/blob/main/ScriptableDialogue/Assets/ScriptableDialogueSystem/Editor/DialogueTypes/RenderDialogue.cs#L103)
 
+## [Used in Ian Barrow's Portfolio Game](https://ianbarrow.itch.io/graduate-portfolio)
+
+## [Used in Unreleased Game](https://github.com/Banananaman91/DeathGame)
+
 ## Update 1.2.1
 
 Added feature for an array of Unity Events to be called
